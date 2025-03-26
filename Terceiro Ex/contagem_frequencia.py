@@ -4,7 +4,7 @@ caracteres da string e os valores representam quantas vezes cada caractere apare
 '''
 
 def contar_frequencia(palavra):
-    dicionario = {}
+    dicionario = {} 
     lista = palavras.split(', ')
     for item in lista:
         if not item in dicionario.keys():
@@ -13,4 +13,4 @@ def contar_frequencia(palavra):
 
 palavras = 'Java, Java, Java, Java, JavaScript, Python, Ruby, Lua, Ruby, Python, Java, Java, Rust, Cobol'
 
-print(contar_frequencia(palavras))
+print(f'Dicionario: {contar_frequencia(palavras)}')
